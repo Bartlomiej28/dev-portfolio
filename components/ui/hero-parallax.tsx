@@ -19,9 +19,16 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({
   title,
   description
 }) => {
-  const firstRow = products.slice(0, 5);
-  const secondRow = products.slice(5, 10);
-  const thirdRow = products.slice(10, 15);
+  const firstRow = products.slice(0, 4);
+  const secondRow = products.slice(4, 8);
+
+  const third = products.slice(0,2)
+  const fourth = products.slice(4,6).reverse()
+
+  const thirdRow = third.concat(fourth).reverse()
+  
+
+  
   const ref = React.useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -97,6 +104,7 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({
             />
           ))}
         </motion.div>
+       
       </motion.div>
     </div>
   );

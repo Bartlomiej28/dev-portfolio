@@ -32,11 +32,11 @@ function Contact() {
         <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
           <label className="flex flex-col">
             <span className="mb-2">Full name:</span>
-            <input type="text" placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2"/>
+            <input type="text" placeholder="Full name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2"/>
           </label>
           <label className="flex flex-col">
             <span className="mb-2">Email address:</span>
-            <input type="email" placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2" />
+            <input type="email" placeholder="Email address" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2" />
           </label>
           <label className="flex flex-col">
             <span className="mb-2">Message</span>

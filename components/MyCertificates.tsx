@@ -1,7 +1,7 @@
-"use client"
-
 import React from 'react'
 import { HeroParallax } from "@/components/ui/hero-parallax";
+
+
 export default function MyCertificates() {
   return (
     <div className="w-full h-full overflow-auto">
@@ -10,98 +10,63 @@ export default function MyCertificates() {
   )
 }
 export const products = [
+
+
   {
-    title: "Moonbeam",
+    title: "Cybersecurity z Politechniką Poznańską",
     link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    thumbnail: '/cyberSec_Santander.png'
+      
   },
   {
-    title: "Cursor",
+    title: "Front End Development Libraries",
     link: "https://cursor.so",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/front_end_development_libraries_FCC.png",
   },
   {
-    title: "Rogue",
+    title: "JavaScript Algorithms and Data Structures (Beta)",
     link: "https://userogue.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "/js_algorithms_and_data_structures_beta_FCC.png",
   },
-
   {
-    title: "Editorially",
+    title: "Legacy JavaScript Algorithms and Data Structures",
     link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/legacy_js_algorithms_and_data_structures_FCC.png",
   },
+  
+
+
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: "Responsive Web Design",
+    link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      "/responsive_web_design_FCC.png",
   },
   {
-    title: "Pixel Perfect",
+    title: "Scientific Computing with python",
     link: "https://app.pixelperfect.quest",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "/scientific_computing_with_python_FCC.png",
   },
 
   {
-    title: "Algochurn",
+    title: "SPA Front End Internet Applications z Politechniką Białostocką",
     link: "https://algochurn.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "/spa_frontend_internet_applications_pb.png",
   },
   {
-    title: "Aceternity UI",
+    title: "Website Development with Akademia Ekonomiczno Humanistyczna w Warszawie",
     link: "https://ui.aceternity.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+      "/website_development_AEH.png",
   },
 
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
-  },
+  
+
+
 ];
 

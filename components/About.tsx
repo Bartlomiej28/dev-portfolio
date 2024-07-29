@@ -1,5 +1,5 @@
 import React from 'react'
-import rafonix from '@/data/rafonix.jpg'
+
 function About() {
   return (
   <section className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8" id="about-me">
@@ -25,11 +25,11 @@ function About() {
           </h2>
 
           <p className="mt-4 text-gray-600">
-            I'm a passionate and self-taught front-end developer. Although I don't have professional experience yet, I have dedicated countless hours to learning and honing my skills by creating my own web applications and websites. 
-            My go-to technologies are React, NextJS, and TailwindCSS, and occasionally I use VueJS.
+            I graduated from a technical high school with a specialization in programming andI'm a passionate front-end developer. Although I don't have professional experience yet, I have dedicated countless hours to learning and honing my skills by creating my own web applications and websites. 
+            My go-to technologies are React, NextJS and TailwindCSS, and occasionally I use VueJS.
             One of my proudest projects is a clone of the TikTok application, which challenged me to push the limits of my abilities and learn new techniques.
-            Outside of programming, I enjoy reading books on personal development, business, and entrepreneurship. These interests not only enrich my personal life but also inspire my approach to coding and problem-solving.
-            In a team setting, I value helping others, working in a positive atmosphere, and maintaining clear communication. My goal is to grow as quickly as possible in my career and eventually become a senior developer.
+            Outside of programming, I enjoy reading books on personal development, business and entrepreneurship. These interests not only enrich my personal life but also inspire my approach to coding and problem-solving.
+            In a team setting, I value helping others, working in a positive atmosphere and maintaining clear communication. My goal is to grow as quickly as possible in my career and eventually become a senior developer.
             I have also earned numerous certificates, which demonstrate my commitment to continuous learning and professional growth.
             I am excited about the future and look forward to contributing to innovative projects and collaborating with talented individuals.
           </p>
