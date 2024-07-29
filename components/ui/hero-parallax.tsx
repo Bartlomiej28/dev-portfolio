@@ -1,23 +1,23 @@
-"use client";
 import React from "react";
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useSpring,
-  MotionValue,
-} from "framer-motion";
+import { motion, useScroll, useTransform, useSpring, MotionValue } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { Header } from "./Header"; // Upewnij się, że ścieżka do Header jest poprawna
 
-export const HeroParallax = ({
-  products,
-}: {
+interface HeroParallaxProps {
   products: {
     title: string;
     link: string;
     thumbnail: string;
   }[];
+  title: string;
+  description: string;
+}
+
+export const HeroParallax: React.FC<HeroParallaxProps> = ({
+  products,
+  title,
+  description
 }) => {
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
@@ -60,7 +60,7 @@ export const HeroParallax = ({
       ref={ref}
       className="h-full py-10 overflow-auto antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
-      <Header />
+      <Header title={title} description={description} />
       <motion.div
         style={{
           rotateX,
@@ -79,7 +79,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        <motion.div className="flex flex-row mb-20 space-x-20">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -98,21 +98,6 @@ export const HeroParallax = ({
           ))}
         </motion.div>
       </motion.div>
-    </div>
-  );
-};
-
-export const Header = () => {
-  return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        The Ultimate <br /> development studio
-      </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
-      </p>
     </div>
   );
 };
@@ -141,7 +126,7 @@ export const ProductCard = ({
     >
       <Link
         href={product.link}
-        className="block group-hover/product:shadow-2xl "
+        className="block group-hover/product:shadow-2xl"
       >
         <Image
           src={product.thumbnail}

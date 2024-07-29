@@ -1,5 +1,5 @@
 import React from 'react'
-
+import rafonix from '@/data/rafonix.jpg'
 function About() {
   return (
   <section className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8" id="about-me">
@@ -8,8 +8,8 @@ function About() {
         <div className="relative h-64 sm:h-80 lg:h-full">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-            className="absolute -z-10 inset-0 h-full w-full object-cover"
+            src='https://wykop.pl/cdn/c3201142/comment_1640433665JmpFARanZ2LxydpRWria0N,w400.jpg'
+            className="absolute inset-0 h-full w-full object-cover"
           />
         </div>
       </div>
@@ -21,11 +21,17 @@ function About() {
 
         <div className="p-8 sm:p-16 lg:p-24">
           <h2 className="text-2xl font-bold sm:text-3xl">
-            My name is Bartłomiej Boczyło
+          Hi, I'm Bartłomiej Boczyło
           </h2>
 
           <p className="mt-4 text-gray-600">
-            I am 20 years old frontend developer from Biała Podlaska, Poland.
+            I'm a passionate and self-taught front-end developer. Although I don't have professional experience yet, I have dedicated countless hours to learning and honing my skills by creating my own web applications and websites. 
+            My go-to technologies are React, NextJS, and TailwindCSS, and occasionally I use VueJS.
+            One of my proudest projects is a clone of the TikTok application, which challenged me to push the limits of my abilities and learn new techniques.
+            Outside of programming, I enjoy reading books on personal development, business, and entrepreneurship. These interests not only enrich my personal life but also inspire my approach to coding and problem-solving.
+            In a team setting, I value helping others, working in a positive atmosphere, and maintaining clear communication. My goal is to grow as quickly as possible in my career and eventually become a senior developer.
+            I have also earned numerous certificates, which demonstrate my commitment to continuous learning and professional growth.
+            I am excited about the future and look forward to contributing to innovative projects and collaborating with talented individuals.
           </p>
 
           <a href="#contact" className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
