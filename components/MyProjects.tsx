@@ -43,16 +43,16 @@ export const products = [
       "/moviemania.png",
   },
   {
-    title: "Dev Portfolio",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "/dev_portfolio.png",
-  },
-  {
     title: "Website",
     link: "https://gomoonbeam.com",
     thumbnail:
       "/website_1_3.png",
+  },
+  {
+    title: "Dev Portfolio",
+    link: "https://app.pixelperfect.quest",
+    thumbnail:
+      "/dev_portfolio.png",
   },
   {
     title: "MovieMania",
@@ -60,7 +60,6 @@ export const products = [
     thumbnail:
       "/moviemania.png",
   },
-
 
   {
     title: "Ecommerce shop",
@@ -74,10 +73,16 @@ export const products = [
     thumbnail:
       "/dev_portfolio.png",
   },
-
-
-
-
-
-  
+  {
+    title: "Ecommerce shop",
+    link: "https://gomoonbeam.com",
+    thumbnail:
+      "/online_shop_nextjs.png",
+  },
+  {
+    title: "Copy of TikTok",
+    link: "https://gomoonbeam.com",
+    thumbnail:
+      "/tiktok_clone.png",
+  },
 ];

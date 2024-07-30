@@ -2,7 +2,7 @@ import React from "react";
 import { motion, useScroll, useTransform, useSpring, MotionValue } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Header } from "./Header"; // Upewnij się, że ścieżka do Header jest poprawna
+import { Header } from "./Header"; 
 
 interface HeroParallaxProps {
   products: {
@@ -12,23 +12,18 @@ interface HeroParallaxProps {
   }[];
   title: string;
   description: string;
+  items: string[]; 
 }
 
 export const HeroParallax: React.FC<HeroParallaxProps> = ({
   products,
   title,
-  description
+  description,
+  items 
 }) => {
   const firstRow = products.slice(0, 4);
   const secondRow = products.slice(4, 8);
-
-  const third = products.slice(0,2)
-  const fourth = products.slice(4,6).reverse()
-
-  const thirdRow = third.concat(fourth).reverse()
-  
-
-  
+  const thirdRow = products.slice(8, 12);
   const ref = React.useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -67,7 +62,7 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({
       ref={ref}
       className="h-full py-10 overflow-auto antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
-      <Header title={title} description={description} />
+      <Header title={title} description={description} items={items} />
       <motion.div
         style={{
           rotateX,
@@ -104,7 +99,6 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({
             />
           ))}
         </motion.div>
-       
       </motion.div>
     </div>
   );

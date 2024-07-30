@@ -20,6 +20,7 @@ function Projects() {
         <span className='w-full flex flex-col gap-8 md:gap-16'>
           <div className='w-full h-auto'>
             <TypewriterEffectSmooth words={words} />
+            <p>I have completed numerous independent projects, gaining practical skills and knowledge. I hold many certificates that confirm my competencies and commitment to development. I constantly strive to improve my skills and enjoy developing myself. I believe that my experience and motivation will make me a valuable member of your team.</p>
           </div>
           <div className='w-full flex flex-col gap-4 justify-center items-center'>
             <button onClick={() => setLocation('projects')} className={`w-36 md:w-60 px-4 py-2 ${location === 'projects' ? 'bg-[#353535] text-white' : 'bg-white border border-[#353535]'} rounded-full text-center`}>Projects</button>
