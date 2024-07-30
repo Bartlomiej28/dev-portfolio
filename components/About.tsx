@@ -1,15 +1,18 @@
 import React from 'react'
-
+import zdjecie from '@/public/zdjecie3.jpg';
+import Image from 'next/image'
 function About() {
   return (
   <section className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8" id="about-me">
     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div className="relative z-10 lg:py-16">
         <div className="relative h-64 sm:h-80 lg:h-full">
-          <img
+          <Image
             alt=""
-            src='https://wykop.pl/cdn/c3201142/comment_1640433665JmpFARanZ2LxydpRWria0N,w400.jpg'
+            src={zdjecie}
             className="absolute inset-0 h-full w-full object-cover"
+            width={500}
+            height={500}
           />
         </div>
       </div>
@@ -25,7 +28,7 @@ function About() {
           </h2>
 
           <p className="mt-4 text-gray-600">
-            I graduated from a technical high school with a specialization in programming andI'm a passionate front-end developer. Although I don't have professional experience yet, I have dedicated countless hours to learning and honing my skills by creating my own web applications and websites. 
+            I graduated from a technical high school with a specialization in programming and I'm a passionate front-end developer. Although I don't have professional experience yet, I have dedicated countless hours to learning and honing my skills by creating my own web applications and websites. 
             My go-to technologies are React, NextJS and TailwindCSS, and occasionally I use VueJS.
             One of my proudest projects is a clone of the TikTok application, which challenged me to push the limits of my abilities and learn new techniques.
             Outside of programming, I enjoy reading books on personal development, business and entrepreneurship. These interests not only enrich my personal life but also inspire my approach to coding and problem-solving.

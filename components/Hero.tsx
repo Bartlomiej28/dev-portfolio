@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import rafonix from '@/data/rafonix.jpg';
+import zdjecie from '@/public/zdjecie3.jpg';
 import Image from "next/image";
 
 export function Hero() {
@@ -21,11 +21,11 @@ export function Hero() {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div>
             <Image 
-              src={rafonix} 
+              src={zdjecie} 
               width={600} 
               height={600} 
               alt="myPhoto" 
-              className="rounded-full w-48 h-48 md:w-96 md:h-96"
+              className="rounded-full w-48 h-48 md:w-96 md:h-96 object-cover"
             />
           </div>
           <div className="flex flex-col gap-4 items-center text-center">
