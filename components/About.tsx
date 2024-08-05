@@ -1,5 +1,5 @@
 import React from 'react'
-import zdjecie from '@/public/zdjecie3.jpg';
+import zdjecie from '@/public/noweZdjecieZDorobionaKoszula.jpg';
 import Image from 'next/image'
 function About() {
   return (
