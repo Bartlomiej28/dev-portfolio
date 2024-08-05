@@ -3,7 +3,7 @@ import zdjecie from '@/public/noweZdjecieZDorobionaKoszula.jpg';
 import Image from 'next/image'
 function About() {
   return (
-  <section className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8" id="about-me">
+  <section className="mx-auto max-w-screen-2xl min-h-screen h-auto px-4 py-16 sm:px-6 lg:px-8" id="about-me">
     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div className="relative z-10 lg:py-16">
         <div className="relative h-64 sm:h-80 lg:h-full">
@@ -37,7 +37,7 @@ function About() {
             I am excited about the future and look forward to contributing to innovative projects and collaborating with talented individuals.
           </p>
 
-          <a href="#contact" className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
+          <a href="#contact" className="mt-8 inline-block border border-[#343434] bg-[#343434] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#343434] focus:outline-none focus:ring active:text-[#343434] duration-200 rounded-full">
             Get in Touch
           </a>
         </div>

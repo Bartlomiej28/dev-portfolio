@@ -2,10 +2,10 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section className="py-6 w-full h-screen flex items-center justify-center" id='contact'>
+    <section className="py-6 w-full min-h-screen h-auto flex items-center justify-center" id='contact'>
       <div className="grid max-w-6xl w-full grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
-          <h1 className="text-4xl font-bold text-green-500">Get in touch</h1>
+          <h1 className="text-4xl font-bold text-[#343434]">Get in touch</h1>
           <p className="pt-2 pb-4">Fill in the form to start a conversation</p>
           <div className="space-y-4">
             <p className="flex items-center">
@@ -42,7 +42,7 @@ function Contact() {
             <span className="mb-2">Message</span>
             <textarea placeholder='Your message' rows={3} className="block w-full rounded-md focus:ring focus:ring-opacity-75 px-4 py-2"></textarea>
           </label>
-          <button type="button" className="self-center w-3/4 px-8 py-3 text-lg rounded border border-green-400">Submit</button>
+          <button type="button" className="mt-8 inline-block border border-[#343434] bg-[#343434] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#343434] focus:outline-none focus:ring active:text-[#343434] duration-200 rounded-full">Submit</button>
         </form>
       </div>
     </section>
