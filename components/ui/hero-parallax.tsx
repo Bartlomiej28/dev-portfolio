@@ -19,7 +19,7 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({
   products,
   title,
   description,
-  items 
+  items
 }) => {
   const firstRow = products.slice(0, 4);
   const secondRow = products.slice(4, 8);
