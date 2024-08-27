@@ -31,6 +31,12 @@ export const products = [
       "/youtubeClone.png",
   },
   {
+    title: "Banking App",
+    link: "https://banking-app-jet.vercel.app/",
+    thumbnail:
+      "/bankingApp.png",
+  },
+  {
     title: "Ecommerce shop",
     link: "https://online-shop-livid.vercel.app/",
     thumbnail:
@@ -54,5 +60,4 @@ export const products = [
     thumbnail:
       "/website_1_3.png",
   },
-
 ];
