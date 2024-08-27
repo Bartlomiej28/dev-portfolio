@@ -28,14 +28,14 @@ export default function MyCertificates() {
 
 export const products = [
   {
-    title: "Cybersecurity with Politechnika Poznańska",
-    link: "https://gomoonbeam.com",
-    thumbnail: '/cyberSec_Santander.png'
-  },
-  {
     title: "Front End Development Libraries",
     link: "https://cursor.so",
     thumbnail: "/front_end_development_libraries_FCC.png",
+  },
+  {
+    title: "Legacy JavaScript Algorithms and Data Structures",
+    link: "https://editorially.org",
+    thumbnail: "/legacy_js_algorithms_and_data_structures_FCC.png",
   },
   {
     title: "JavaScript Algorithms and Data Structures (Beta)",
@@ -43,35 +43,15 @@ export const products = [
     thumbnail: "/js_algorithms_and_data_structures_beta_FCC.png",
   },
   {
-    title: "Cybersecurity with Politechnika Poznańska",
-    link: "https://gomoonbeam.com",
-    thumbnail: '/cyberSec_Santander.png'
-  },
-
-
-
-  {
-    title: "Legacy JavaScript Algorithms and Data Structures",
-    link: "https://editorially.org",
-    thumbnail: "/legacy_js_algorithms_and_data_structures_FCC.png",
-  },
-  {
     title: "Responsive Web Design",
     link: "https://editorially.org",
     thumbnail: "/responsive_web_design_FCC.png",
-  },
-  {
-    title: "Scientific Computing with Python",
-    link: "https://app.pixelperfect.quest",
-    thumbnail: "/scientific_computing_with_python_FCC.png",
   },
   {
     title: "SPA Front End Internet Applications with Politechnika Białostocka",
     link: "https://algochurn.com",
     thumbnail: "/spa_frontend_internet_applications_pb.png",
   },
-
-
   {
     title: "Website Development with Akademia Ekonomiczno Humanistyczna w Warszawie",
     link: "https://ui.aceternity.com",
@@ -83,13 +63,20 @@ export const products = [
     thumbnail: "/basics_of_js_ug.png",
   },
   {
-    title: "Legacy JavaScript Algorithms and Data Structures",
-    link: "https://editorially.org",
-    thumbnail: "/legacy_js_algorithms_and_data_structures_FCC.png",
+    title: "Cybersecurity with Politechnika Poznańska",
+    link: "https://gomoonbeam.com",
+    thumbnail: '/cyberSec_Santander.png'
   },
   {
-    title: "Website Development with Akademia Ekonomiczno Humanistyczna w Warszawie",
-    link: "https://ui.aceternity.com",
-    thumbnail: "/website_development_AEH.png",
+    title: "Scientific Computing with Python",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/scientific_computing_with_python_FCC.png",
   },
+  
+
+
+  
+
+
+
 ];

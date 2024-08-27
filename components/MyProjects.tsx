@@ -13,79 +13,46 @@ export const items = []
 
 export const products = [
   {
-    title: "Ecommerce shop",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "/online_shop_nextjs.png",
-  },
-  {
     title: "Copy of TikTok",
-    link: "https://gomoonbeam.com",
+    link: "https://socialmediaapp-ruby.vercel.app/",
     thumbnail:
       "/tiktok_clone.png",
   },
   {
-    title: "Website",
-    link: "https://gomoonbeam.com",
+    title: "Copy of Spotify",
+    link: "https://spotify-clone-xi-drab.vercel.app/",
     thumbnail:
-      "/website_1_3.png",
+      "/spotifyClone.png",
+  },
+  {
+    title: "Copy of YouTube",
+    link: "https://youtube-clone-lyart-pi.vercel.app/",
+    thumbnail:
+      "/youtubeClone.png",
   },
   {
     title: "Ecommerce shop",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "/online_shop_nextjs.png",
-  },
-
-
-
-  {
-    title: "MovieMania",
-    link: "https://editrix.ai",
-    thumbnail:
-      "/moviemania.png",
-  },
-  {
-    title: "Website",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "/website_1_3.png",
-  },
-  {
-    title: "Dev Portfolio",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "/dev_portfolio.png",
-  },
-  {
-    title: "MovieMania",
-    link: "https://editrix.ai",
-    thumbnail:
-      "/moviemania.png",
-  },
-
-  {
-    title: "Ecommerce shop",
-    link: "https://gomoonbeam.com",
+    link: "https://online-shop-livid.vercel.app/",
     thumbnail:
       "/online_shop_nextjs.png",
   },
   {
     title: "Dev Portfolio",
-    link: "https://app.pixelperfect.quest",
+    link: "https://dev-portfolio-xi-liard.vercel.app/",
     thumbnail:
       "/dev_portfolio.png",
   },
   {
-    title: "Ecommerce shop",
-    link: "https://gomoonbeam.com",
+    title: "MovieMania",
+    link: "https://movie-mania-silk-omega.vercel.app/",
     thumbnail:
-      "/online_shop_nextjs.png",
+      "/moviemania.png",
   },
   {
-    title: "Copy of TikTok",
-    link: "https://gomoonbeam.com",
+    title: "Website",
+    link: "https://website1-3.vercel.app/",
     thumbnail:
-      "/tiktok_clone.png",
+      "/website_1_3.png",
   },
+
 ];
