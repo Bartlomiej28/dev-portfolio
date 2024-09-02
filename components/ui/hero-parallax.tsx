@@ -24,7 +24,7 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({
   return (
     <div className="h-full py-10 overflow-auto antialiased relative flex flex-col self-auto">
       <Header title={title} description={description} items={items} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
         {products.map((product) => (
           <ProductCard product={product} key={product.title} />
         ))}
@@ -45,23 +45,23 @@ export const ProductCard = ({
   return (
     <motion.div
       whileHover={{
-        y: -20,
+        y: -10,
       }}
-      className="group/product h-72 sm:h-96 w-full relative flex-shrink-0"
+      className="group h-full w-full relative flex-shrink-0"
     >
-      <Link href={product.link} className="block group-hover/product:shadow-2xl">
+      <Link href={product.link} className="block relative">
         <Image
           src={product.thumbnail}
-          height="1000"
-          width="1000"
-          className="w-full h-full object-cover object-center absolute inset-0"
+          height={400} // Ustal odpowiednie wysokości
+          width={400}  // Ustal odpowiednie szerokości
+          className="w-full h-full object-cover"
           alt={product.title}
         />
+        <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+        <h2 className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          {product.title}
+        </h2>
       </Link>
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
-      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
-        {product.title}
-      </h2>
     </motion.div>
   );
 };

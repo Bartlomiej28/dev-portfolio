@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import zdjecie from '@/public/noweZdjecieZDorobionaKoszula.jpg';
+import zdjecie from '@/public/zdjecie.jpg';
 import Image from "next/image";
 
 export function Hero() {
