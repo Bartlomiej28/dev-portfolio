@@ -19,6 +19,12 @@ export const products = [
       "/tiktok_clone.png",
   },
   {
+    title: "Banking App (App is not deployed yet)",
+    link: "https://github.com/",
+    thumbnail:
+      "/bankingApp2.png",
+  },
+  {
     title: "Copy of Spotify",
     link: "https://spotify-clone-xi-drab.vercel.app/",
     thumbnail:
