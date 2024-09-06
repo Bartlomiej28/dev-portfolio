@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 export function MySkills() {
   return (
     <>
-      <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-4 bg-white dark:bg-black w-full mx-auto px-8 overflow-scroll">
+      <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-4 bg-white w-full mx-auto px-8 overflow-scroll">
         <Card title={`JavaScript, TypeScript, React, Next.js, Vue.js`} icon={'Frontend'}>
           <CanvasRevealEffect
             animationSpeed={5.1}
