@@ -21,7 +21,7 @@ function Projects() {
         <div className='w-full flex flex-col gap-8 md:gap-16'>
           <div className='w-full h-auto'>
             <TypewriterEffectSmooth words={words} />
-            <p className='text-sm md:text-base leading-relaxed mt-4'>
+            <p className='text-sm md:text-base leading-relaxed mt-4 text-black'>
               I have completed numerous independent projects, gaining practical skills and knowledge. I hold many certificates that confirm my competencies and commitment to development. I constantly strive to improve my skills and enjoy developing myself. I believe that my experience and motivation will make me a valuable member of your team.
             </p>
           </div>
