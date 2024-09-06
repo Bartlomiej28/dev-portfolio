@@ -29,20 +29,21 @@ function Contact() {
             </p>
           </div>
         </div>
-        <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+        <form action="https://formsubmit.co/bartlomiej.boczylo@gmail.com" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6" method="POST">
+	  <input type="hidden" name="_subject" value="Contact request"/>
           <label className="flex flex-col">
             <span className="mb-2">Full name:</span>
-            <input type="text" placeholder="Full name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2"/>
+            <input type="text" name="name" placeholder="Full name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2" required/>
           </label>
           <label className="flex flex-col">
             <span className="mb-2">Email address:</span>
-            <input type="email" placeholder="Email address" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2" />
+            <input type="email" name="email" placeholder="Email address" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2" required/>
           </label>
           <label className="flex flex-col">
             <span className="mb-2">Message</span>
-            <textarea placeholder='Your message' rows={3} className="block w-full rounded-md focus:ring focus:ring-opacity-75 px-4 py-2"></textarea>
+            <textarea name="message" placeholder='Your message' rows={3} className="block w-full rounded-md focus:ring focus:ring-opacity-75 px-4 py-2" required></textarea>
           </label>
-          <button type="button" className="mt-8 inline-block border border-[#343434] bg-[#343434] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#343434] focus:outline-none focus:ring active:text-[#343434] duration-200 rounded-full">Submit</button>
+          <button  type="submit" className="mt-8 inline-block border border-[#343434] bg-[#343434] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#343434] focus:outline-none focus:ring active:text-[#343434] duration-200 rounded-full">Submit</button>
         </form>
       </div>
     </section>
