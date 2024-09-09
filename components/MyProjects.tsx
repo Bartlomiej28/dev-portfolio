@@ -44,7 +44,7 @@ export const products = [
   },
   {
     title: "Dev Portfolio",
-    link: "https://dev-portfolio-xi-liard.vercel.app/",
+    link: "https://bartlomiejboczylo.com",
     thumbnail:
       "/dev_portfolio.png",
   },
