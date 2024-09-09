@@ -4,7 +4,8 @@ import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import zdjecie from '@/public/zdjecie.jpg';
 import Image from "next/image";
-
+import cv from "./Bartłomiej Boczyło CV"
+  
 export function Hero() {
   return (
     <AuroraBackground id="home">
@@ -33,7 +34,7 @@ export function Hero() {
             <p className="text-3xl md:text-5xl font-bold">Bartłomiej Boczyło</p>
             <p className="text-xl md:text-3xl">Web Developer</p>
             <div className="flex flex-col md:flex-row gap-4 mt-2">
-              <button className="w-36 px-4 py-2 text-[#343434] border border-[#343434] rounded-full">Download CV</button>
+              <a href={cv} download className="w-36 px-4 py-2 text-[#343434] border border-[#343434] rounded-full">Download CV</a>
               <a href="#contact" className="w-36 px-4 py-2 text-white bg-[#343434] rounded-full text-center">Contact</a>
             </div>
           </div>
