@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className='border '>
         <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row dark:divide-gray-600">
-            <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start ">
+            <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start gap-4">
                 <a href='#'>Home</a>
                 <a href='#about-me'>About</a>
                 <a href='#projects'>Projects</a>
