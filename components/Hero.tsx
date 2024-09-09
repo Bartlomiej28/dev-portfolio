@@ -4,7 +4,7 @@ import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import zdjecie from '@/public/zdjecie.jpg';
 import Image from "next/image";
-import cv from "./Bartłomiej Boczyło CV"
+import cv from '@/public/cv.png'
   
 export function Hero() {
   return (
