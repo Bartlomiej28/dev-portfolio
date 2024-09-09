@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <footer className='border '>
-        <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row dark:divide-gray-600">
+        <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row lg:justify-between lg:items-center">
             <div className="flex flex-row gap-4">
                 <a href='#'>Home</a>
                 <a href='#projects'>Projects</a>
