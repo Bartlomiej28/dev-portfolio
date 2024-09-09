@@ -33,7 +33,7 @@ export function Hero() {
             <p className="text-3xl md:text-5xl font-bold">Bartłomiej Boczyło</p>
             <p className="text-xl md:text-3xl">Web Developer</p>
             <div className="flex flex-col md:flex-row gap-4 mt-2">
-              <a href="/bartlomiej_boczylo_CV" download className="w-36 px-4 py-2 text-[#343434] border border-[#343434] rounded-full">Download CV</a>
+              <a href="/bartlomiej_boczylo_CV.pdf" download className="w-36 px-4 py-2 text-[#343434] border border-[#343434] rounded-full">Download CV</a>
               <a href="#contact" className="w-36 px-4 py-2 text-white bg-[#343434] rounded-full text-center">Contact</a>
             </div>
           </div>
