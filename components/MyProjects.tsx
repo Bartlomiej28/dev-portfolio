@@ -26,7 +26,7 @@ export const products = [
   },
   {
     title: "Copy of Spotify",
-    link: "https://spotify-clone-xi-drab.vercel.app/",
+    link: "https://github.com/Bartlomiej28/SpotifyClone",
     thumbnail:
       "/spotifyClone.png",
   },
